@@ -1,0 +1,35 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 600px;
+  border: 16px #bdc3c7 solid;
+  margin: 16px auto;
+  padding: 16px;
+}
+
+article > time {
+  text-transform: uppercase;
+  /* font-weight: 700; */
+  font-size: 14px;
+  color: #3498db;
+  letter-spacing: 0.1em;
+}
+
+article > h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+article > blockquote {
+  border-left: 5px #bdc3c7 solid;
+  padding: 0 0 0 5px;
+  margin: 0;
+  font-size: 14px;
+}
+
+article > p {
+  font-size: 14px;
+}
+
+hr {
+  border-top: 1px solid #bdc3c7;
+}
