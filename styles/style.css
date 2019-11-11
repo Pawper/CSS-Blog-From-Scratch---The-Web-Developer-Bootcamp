@@ -1,22 +1,23 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  width: 600px;
-  border: 16px #bdc3c7 solid;
-  margin: 16px auto;
-  padding: 16px;
+  width: 700px;
+  max-width: calc(100% - 120px);
+  border: 20px #bdc3c7 solid;
+  margin: 20px auto;
+  padding: 20px;
 }
 
 article > time {
   text-transform: uppercase;
-  /* font-weight: 700; */
   font-size: 14px;
   color: #3498db;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2rem;
 }
 
 article > h2 {
   font-weight: 700;
   color: #2c3e50;
+  font-size: 2.0rem;
 }
 
 article > blockquote {
@@ -32,4 +33,5 @@ article > p {
 
 hr {
   border-top: 1px solid #bdc3c7;
+  margin: 20px 0;
 }
